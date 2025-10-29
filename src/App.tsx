@@ -9,10 +9,11 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setOpen(true)}>Open Sidebar</button>
-      {/* <Input type="password" clearable={true} /> */}
+      <button onClick={() => setOpen(true)} style={{marginBottom: '3rem'}}>Open Sidebar</button>
+      <br></br>
+      <Input type="password" clearable={true} />
       <Toast text="This is a toast with text" fadeTimeSec={3} type="fade" closeBtn={false} color="success" />
-      {/* <Sidebar isOpen={open} title="Navigation" onClose={() => setOpen(false)} /> */}
+      <Sidebar isOpen={open} title="Navigation" onClose={() => setOpen(false)} />
     </>
 
 

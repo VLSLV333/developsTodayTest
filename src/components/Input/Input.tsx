@@ -32,7 +32,7 @@ export default function Input({ type, clearable }: InputProps) {
         <div className={styles.inputContainer}>
 
             <input className={styles.input} type={currentType} value={inputValue} onChange={(event) => setInputValue(event.target.value)} />
-            {clearable && <AiOutlineClose className={styles.IconBaseStyling} onClick={handleInputClear} style={{ right: `${bothIcons ? '1.8rem' : '0.4rem'}` }} />}
+            {clearable && inputValue && <AiOutlineClose className={styles.IconBaseStyling} onClick={handleInputClear} style={{ right: `${bothIcons ? '1.8rem' : '0.4rem'}` }} />}
             {passwordInput && !hidePassword && <AiFillEye className={styles.IconBaseStyling} onClick={handlePasswordToggle} />}
             {passwordInput && hidePassword && <AiFillEyeInvisible className={styles.IconBaseStyling} onClick={handlePasswordToggle} />}
         </div>
