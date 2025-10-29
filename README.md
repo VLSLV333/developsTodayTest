@@ -44,36 +44,36 @@ Each component has at least two states demonstrated in Storybook. Below are scre
 ### Input
 Stories: `Text`, `TextClearable`, `Password`, `PasswordClearable`, `Number`, `NumberClearable`.
 
-Input — Text (clearable):
+Input — Text (clearable):<br>
 ![Input — Text (clearable)](./src/images/inputTextClearable.png)
 
 
-Input — Password (clearable):
+Input — Password (clearable):<br>
 ![Input — Password (clearable)](./src/images/passClearable.png)
 
 ### Sidebar
 Story: `Default` (toggle open/close; nested items; fullscreen layout).
 
-Sidebar — Open:
+Sidebar — Open:<br>
 ![Sidebar — Open](./src/images/sideBarOpen.png)
 
-Sidebar — Opened Submenus:
+Sidebar — Opened Submenus:<br>
 ![Sidebar — Opened Submenus](./src/images/sideBarOpenMenues.png)
 
 ### Toast
 Stories: `FadeDefault`, `FadeWithCloseButton`, `FadeShortDuration`, `FadeLongDuration`, `SlideDefault`, `SlideWithCloseButton`, `SlideShortDuration`, `SlideLongDuration`, `SuccessMessage`, `ErrorMessage`, `NotificationMessage`.
 
-Toast — Fade default:
+Toast — Fade default:<br>
 ![Toast — Fade default](./src/images/toastFadeDefault.png)
 
-Toast — Slide default:
+Toast — Slide default:<br>
 ![Toast — Slide default](./src/images/slideDefaultToast.png)
 
-Toast — Error message:
+Toast — Error message:<br>
 ![Toast — Error message](./src/images/errorToast.png)
 
 ## Storybook UI
 Storybook itself showing the components.
 
-Storybook — UI:
+Storybook — UI:<br>
 ![Storybook UI](./src/images/storyBookUI.png)
