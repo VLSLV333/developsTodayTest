@@ -1,0 +1,19 @@
+.inputContainer{
+    position: relative;
+    display: inline-block;
+}
+
+.input {
+    padding: 0.5rem 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.IconBaseStyling{
+    position: absolute;
+    width: 1.3rem;
+    height: 1.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.4rem;
+    cursor: pointer;
+}
